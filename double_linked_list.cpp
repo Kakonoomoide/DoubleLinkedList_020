@@ -9,6 +9,10 @@ public:
 	Node* prev;
 };
 
+class DoubleLinkedList {
+private:
+
+};
 
 int main()
 {
