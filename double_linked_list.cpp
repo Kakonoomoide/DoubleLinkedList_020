@@ -102,6 +102,10 @@ bool DoubleLinkedList::listEmpty() {
 	return (START==NULL);
 }
 
+void DoubleLinkedList::ascending() {
+
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
