@@ -77,6 +77,7 @@ bool DoubleLinkedList::search(int rollNO, Node** previous, Node** current) {
 		*previous = *current;
 		*current = (*current)->next;
 	}
+	return(*current != NULL);
 }
 
 bool DoubleLinkedList::deleteNode(int rollNO) {
