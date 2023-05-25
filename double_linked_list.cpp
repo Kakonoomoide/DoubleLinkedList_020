@@ -115,6 +115,10 @@ void DoubleLinkedList::ascending() {
 	}
 }
 
+void DoubleLinkedList::descending() {
+
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
