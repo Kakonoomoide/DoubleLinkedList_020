@@ -132,6 +132,9 @@ void DoubleLinkedList::descending() {
 	}
 }
 
+void DoubleLinkedList::hapus() {
+
+}
 
 int main()
 {
