@@ -18,7 +18,7 @@ public:
 	void addNode();
 	bool search(int rollNO, Node** previous, Node** current);
 	bool deleteNode(int rollNO);
-	void listEmpty();
+	bool listEmpty();
 	void ascending();
 	void descending();
 	void hapus();
@@ -96,6 +96,10 @@ bool DoubleLinkedList::deleteNode(int rollNO) {
 
 	delete current;
 	return true;
+}
+
+bool DoubleLinkedList::listEmpty() {
+	return (START==NULL);
 }
 
 int main()
