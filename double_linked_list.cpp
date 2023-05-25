@@ -24,6 +24,10 @@ public:
 	void searchData();
 };
 
+DoubleLinkedList::DoubleLinkedList() {
+	START = NULL;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
